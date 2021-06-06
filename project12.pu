@@ -1,0 +1,19 @@
+#  Write a Python program to print a specified list after removing the 0th, 4th and 5th elements
+
+
+List=[11,32,32,4,35,6,7]
+List1=[]
+
+for i in range(len(List)):
+    if i!=0 and i!=4 and i!=5:
+        List1.append(List[i])
+
+
+print(List1)        
+    
+    
+    
+    
+    
+Output:
+[32, 32, 4, 7]
